@@ -24,3 +24,31 @@
 .mrs {
     color:blue;
 }
+
+td{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: medium;
+    border: solid 1px;
+    text-align: center;
+    color:sienna;
+}
+ th {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: medium;
+    border: solid 1px;
+    text-align: center;
+    color: green;
+}
+tr {
+    background-color:bisque ;
+}
+.tableone tr:nth-child(even){background-color: pink;}
+.tableone tr:hover {background-color:skyblue;}
