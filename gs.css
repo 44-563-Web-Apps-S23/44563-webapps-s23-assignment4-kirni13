@@ -17,13 +17,18 @@
     color:olivedrab;
 }
 .name{
-    color:red;
+    
 
+}
+.lane{
+    color:red;
 }
 
 .mrs {
     color:blue;
 }
+
+
 
 td{
     padding-left: 12px;
@@ -32,7 +37,7 @@ td{
     padding-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: medium;
-    border: solid 1px;
+    border: solid 3px;
     text-align: center;
     color:sienna;
 }
@@ -43,12 +48,27 @@ td{
     padding-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: medium;
-    border: solid 1px;
+    border: solid 3px;
     text-align: center;
     color: green;
 }
 tr {
     background-color:bisque ;
+    text-align: center;
 }
 .tableone tr:nth-child(even){background-color: pink;}
 .tableone tr:hover {background-color:skyblue;}
+
+
+.lane:hover {
+    background-color: rgb(134, 120, 120);
+    color: yellowgreen;
+    text-shadow: 2px 2px red;
+    border:blue;
+}
+.mrs:hover{
+    background-color: black;
+    color: orange;
+    text-shadow: 2px 2px #baa9a9;
+    border:violet;
+}
